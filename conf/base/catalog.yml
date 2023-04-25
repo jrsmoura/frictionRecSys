@@ -2,3 +2,11 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+base_ano:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/base_ano.csv
+
+preprocessed_base_ano:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_base_ano.csv
